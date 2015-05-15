@@ -959,6 +959,20 @@
     return obj;
     ```
 
+  - Do not align via any mid-line characters.  This is unnecessary maintenance.
+
+    ```javascript
+    // bad
+    var foo      = 123,
+      bar        = 456,
+      bazBangQux = 789;
+
+    // good
+    var foo = 123,
+      bar = 456,
+      bazBangQux = 789;
+    ```
+
 
 **[⬆ back to top](#table-of-contents)**
 
