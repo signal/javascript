@@ -1,9 +1,6 @@
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 # Signal JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
-*Forked of the very fine Airbnb JavaScript Style Guide*
+*Fork of the very fine Airbnb JavaScript Style Guide*
 
 
 ## Table of Contents
