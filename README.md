@@ -399,6 +399,23 @@
         goSportsTeam = true,
         i, len, dragonball;
     ```
+  - Limit the complexity of right hand statments in var declarations. This is hard to read and edit, and confusing to indent.
+
+    ```javascript
+    // bad
+    var i = (function () { this.getMethodCalledValue(indexOfArticle.map(function () {
+        iteratingLogic++;
+      }).call(this),
+      dragonball = $(document.getElementById('horsefeather')).data('index') || this.model.defaultValue,
+      goSportsTeam;;
+
+    // good
+    var i = getIndex(),
+     dragonball,
+     goSportsTeam;
+    
+    dragonball = $(document.getElementById('horsefeather')).data('index') || this.model.defaultValue;
+    ```
 
   - Assign variables at the top of their scope. This helps avoid issues with variable declaration and assignment hoisting related issues.
 
