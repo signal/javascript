@@ -1122,9 +1122,6 @@
 
     // good
     var hasAge = Boolean(age);
-
-    // good
-    var hasAge = !!age;
     ```
 
 **[⬆ back to top](#table-of-contents)**
