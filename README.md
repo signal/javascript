@@ -616,6 +616,17 @@
     }
     ```
 
+  - Don't use more that one ternary operator in an expression.
+
+    ```javascript
+    // bad
+    donut =  1 > 2 ? 2 < 4 ? 'c' : 'd' : 'b';
+
+    // good
+    secondLetter = 2 < 4 ? 'c' : 'd';
+    donut = 1 > 2 ? secondLetter : 'b';
+    ```
+
   - For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
 
 **[⬆ back to top](#table-of-contents)**
