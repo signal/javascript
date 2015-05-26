@@ -380,8 +380,8 @@
     
     // good
     var items = getItems(),
-        goSportsTeam = true;
-        dragonball = 'z';
+      goSportsTeam = true;
+      dragonball = 'z';
     ```
 
   - Declare unassigned variables last. This is helpful when later on you might need to assign a variable depending on one of the previous assigned variables.
@@ -396,8 +396,8 @@
 
     // good
     var items = getItems(),
-        goSportsTeam = true,
-        i, len, dragonball;
+      goSportsTeam = true,
+      i, len, dragonball;
     ```
   - Limit the complexity of right hand statments in var declarations. This is hard to read and edit, and confusing to indent.
 
@@ -407,7 +407,7 @@
         iteratingLogic++;
       }).call(this),
       dragonball = $(document.getElementById('horsefeather')).data('index') || this.model.defaultValue,
-      goSportsTeam;;
+      goSportsTeam;
 
     // good
     var i = getIndex(),
